@@ -79,12 +79,12 @@ const showExtraInfo = (allButtons) => {
 function dummyfunction(){
     const setDisplay = document.querySelectorAll(".extraData")
     console.log(setDisplay)
-    // for(const element of setDisplay){
-    //     console.log(element)
+    for(const element of setDisplay){
+        console.log(element)
 
-    //     element.stlye.display="block"
-    // }
+        element.stlye.display="block"
+    }
     
     // console.log("it works")
-    setDisplay.style.display="block"
+    // setDisplay.style.display="block"
 }
